@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+    color: #212529;
+}
+.color-white{
+    color: #e9e8e8;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.color-gray{
+    color: #b8b8b6;
+}
+.color-purple{
+    color: #A17560;
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.profile-info{
+    width: 800px;
+    height: 100%;
+    display: flex;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.profile{
+    background-color: #504f4f;
+    padding: 10px;
+    width: 75%;
+    overflow: hidden;
+}
+.profile img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+.socil-icon{
+    text-align: center;
+}
+.socil-icon img{
+    width: 28px;
+    height: 28px;
+}
+.menu-container{
+    background-color: #E6E7E7;
+    padding: 5px;
+    overflow: hidden;
+    width: 25%;
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid #cdcfcf;
+}
+.icon-container img{
+    width: 32px;
+    height: 32px;
+    padding-top: 20px;
+}
+
+.icon-container a{
+    text-decoration: none;
+    color: #7A615B;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.icon-container:hover a{
+    color: blue;
+    font-weight: bold;
+}
+.blogs-container{
+    flex-grow: 1;
+    background-color: #F4F4F4;
+    padding: 10px;
+}
+.header-top{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #DEE2E6;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.top-item{
+    display: flex;
+    align-items: center;
+}
+.top-item img{
+    width: 24px;
+    height: 24px;
+    padding: 0 10px;
+}
+
+.top-blog{
+    padding: 50px 0px;
+}
+.single-article{
+    /* display: flex; */
+}
+.left-side{
+    width: 70%;
+    float: left;
+}
+.right-side{
+    width: 30%;
+    /* float: right; */
+    /* float: left; */
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+::-webkit-scrollbar-track {
+    background: #E6E7E7; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(68, 68, 68);
+}
